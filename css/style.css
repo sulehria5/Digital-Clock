@@ -1,0 +1,24 @@
+body{
+    max-width: 960px;
+    background: #17202A;  
+    margin: auto;
+    padding: 2% 1%;
+    text-align: center;
+    font-family: 'Bungee', cursive;
+    color: #fff;
+  }
+  h1{
+    padding: 2% 1%;
+    margin: auto;
+    letter-spacing: 9px;
+    font-size: 199px;
+    color: lightskyblue;
+    filter: drop-shadow(2px 2px 20px orange);
+  }
+  /*Responsive*/
+  @media (max-width: 425px) {
+    h1{font-size:300%;}
+  }
+  
+  
+  
